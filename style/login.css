@@ -1,0 +1,139 @@
+ /* css do form */
+ 
+
+ body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    color: #555;
+    height:100%;
+  }
+
+  .container {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login {
+    width:400px;
+    transition: all 0.2s ease-out;
+    position: relative;
+    border-radius: 2px;
+    background: hsla(0,0%,90%, 1);
+    box-shadow: 0 10px 10px -10px hsla(0,0%,0%,0.2); 
+    color: grey;
+  }
+
+  .registrar{
+    background-color: white;
+  }
+  
+  .login__form {
+    background:white;
+    padding: 3em 3em 4em 3em;
+    transition: all 0.2s ease-out;
+  }
+  
+  .login:hover {
+    transform: scale(1.05);
+    box-shadow: 0 40px 10px -20px hsla(0,0%,0%,0.1); 
+  }
+  
+  .login__iframe {
+    display:none;
+    position: relative;
+    z-index: 0;
+    width:100%;
+    height:300px;
+  }
+  
+  .login__title {
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    color:  #5ba58f;
+  }
+  
+  .login__title--grey {
+    color: #7b7a7a;
+    font-size: 0.8em;
+  }
+  
+  input {
+    outline: none;
+ 
+    font-size: 1em;
+    display:block;
+    padding: 1em 1.5em;
+    margin-bottom: 1em;
+    background:rgb(245,245,245);
+  }
+  
+
+  
+  input[type=text], input[type=password] {
+    border: 1px dashed transparent;
+    transition: all  0.2s ease-out;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #7b7a7a;
+    width:100%;
+  }
+  
+  input[type=text]:hover, input[type=password]:hover {
+    border:1px dashed  #5ba58f;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    border:1px dashed  #5ba58f;
+    color: #5ba58f;
+  }
+
+  .login-button{
+    width: 100%;
+      margin-top: 35px;
+      padding:  15px 10px;
+      background: #5ba58f;
+      color: #fff;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      outline: 0;
+      border-radius: 5px;
+      opacity: 0.65;
+      transition: all .3s;
+      letter-spacing: 7px;
+  }
+
+  form button:hover {
+      opacity: 1;
+      letter-spacing: 3px
+  }
+
+  #contact {
+    color: #72b2bb;
+    background-color: white;
+    padding: 3rem 0;
+    font-size:1.6rem;
+  }
+
+  #contact p {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+
+  #contact .glyphicon,
+  #contact .fa {
+    color: inherit;
+  }
+  
+  #contact .glyphicon:hover,
+  #contact .fa:hover {
+    color: #C9C9C9;
+    transition: all 0.4s;
+  }
+
+
+  

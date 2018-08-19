@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+  
+        <!-- Place favicon.ico in the root directory -->
+            <link rel="stylesheet" href="https://samiralibabic.github.io/portfolio/css/normalize.css">
+        <!-- Google Font montserrat -->
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <!-- Font Awesome = links do footter-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://samiralibabic.github.io/portfolio/css/font-mfizz-2.3.0/font-mfizz.css">
+        <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!--JavaScript da pagina -->            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
+            <script src="https://samiralibabic.github.io/portfolio/js/plugins.js" defer ></script>
+            <script src="https://samiralibabic.github.io/portfolio/js/main.js" defer ></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous" defer ></script>
+        <!-- css da pagina -->
+            <!-- <link rel="stylesheet" href="style/static.css"> -->
+            <link rel="stylesheet" href="style/primeiroAcesso.css">
+</head>
+
+<body>
+  <header id="landing">
+
+    
+                <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-items" aria-expanded="true">
+
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>   
+                                    <span class="icon-bar"></span>
+                                    
+                            </button>
+                        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home" aria-label="Home" aria-hidden="true"></span></a>
+                     </div>
+                     <div class="collapse navbar-collapse navbar-right" id="main-menu-items">
+                            <ul class="nav navbar-nav">
+                                    <li>
+                                            <a href="login.html">Área do Aluno</a>
+                                        </li>  
+
+                                        <li>
+                                            <a href="login-instrutor.html">Área do Instrutor</a>
+                                        </li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <!-- Inicio do cofmrulario de primeiro acesso -->
+
+          
+  <form>
+                                                            
+        <h2>Realizar cadastro</h2>
+        
+        <h3>Dados Pessoais</h3>
+        <p>Nome completo</p>
+        <input class="inputs" type="text" placeholder="Digite aqui o seu nome" >                                
+
+     <div class="dif">
+
+        <div>
+            <p>CPF</p>
+             <input class="inputs" type="text" placeholder="CPF">
+        </div>
+        
+        <div>
+            <p>RG</p>
+        <input class="inputs" type="text" placeholder="RG" >
+        </div>
+
+        <div>
+            <p>Orgão expedidor</p>
+            <select class="inputs">
+
+                <option></option>
+                <option>	SSP    	</option>
+                <option>	PM    	</option>
+                <option>	PC    	</option>
+                <option>	CNT    	</option>
+                <option>	DIC    	</option>
+                <option>	CTPS    </option>
+                <option>	FGTS    </option>
+                <option>	IFP    	</option>
+                <option>	IPF    	</option>
+                <option>	IML    	</option>
+                <option>	MTE    	</option>
+                <option>	MMA    	</option>
+                <option>	MAE    	</option>
+                <option>	MEX    	</option>
+                <option>	POF    	</option>
+                <option>	POM    	</option>
+                <option>	SES    	</option>
+                <option>	SJS    	</option>
+                <option>	SJTS    </option>
+                <option>	ZZZ 	</option>
+
+            </select>
+        </div>
+
+        <div>
+            <p>Data de Nascimento</p>
+            <input class="inputs" type="TEXT" required maxlength="60" placeholder="Data de Nascimento">
+        </div>
+    
+        <div>
+            <p>Sexo</p>
+             <select class="inputs" >
+                    <option></option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outro</option>
+                    
+            </select>
+         </div>
+        
+     </div>
+
+
+     
+     <div>
+     
+     <div class="dif">
+    
+    <div>
+        <p>E-mail</p>
+      <input class="inputs"  type="email" required maxlength="60" placeholder="exemplo@exemplo.com">
+    </div>
+
+     <div>
+         <p>Telefone</p>
+     <input class="inputs" type="tel" required maxlength="60" placeholder="(xx)xxxx-xxxx">
+     </div>
+ 
+     <div>
+         <p>Celular</p>
+         <input class="inputs" type="tel" required maxlength="60" placeholder="(xx)xxxxx-xxxx">
+     </div>
+                              
+     </div>
+     <p>Endereço</p>
+    <input class="inputs" type="text" required maxlength="60" placeholder="Rua fulano de tal">
+ 
+     <div class="dif">
+ 
+            <div>
+                <p>Nº</p>
+                <input class="inputs" type="number" required maxlength="60" placeholder="XXX">
+            </div>
+ 
+            <div>
+                <p>CEP</p>
+                <input class="inputs" type="number" maxlength="8" placeholder="XXXXX-XXX">
+            </div>
+   
+            <div>
+                <p>Bairro</p>
+                 <input class="inputs" type="text" required maxlength="60" placeholder="Jardim fulano">
+            </div>
+  
+            <div>
+                <p>Cidade</p>
+                 <input class="inputs"  type="text" required maxlength="60" placeholder="São Fulano">
+            </div>
+
+            <div>
+                <p>Complemento</p>
+                 <input class="inputs"  type="text" required maxlength="60" placeholder="Ex: Casa dos Fundos">
+            </div>
+        
+   
+     </div>
+ 
+     <h3>Dados Complementares</h3>
+
+     <p>Nome do Pai</p>     
+     <input class="inputs" type="text" placeholder="Nome do pai" > 
+
+     <p>Nome da mãe</p>
+     <input class="inputs" type="text" placeholder="Nome da mãe" > 
+ 
+
+
+     <button class="inputs" type="submit" id="login-button" onclick=$result>Fazer Login</button>
+     
+    </div>
+
+  </form>
+ 
+  </header>
+
+
+</body>
+
+</html>
